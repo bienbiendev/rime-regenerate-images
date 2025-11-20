@@ -1,10 +1,10 @@
 <script>
 	import { Images } from '@lucide/svelte';
-	import { SpinLoader, Button } from 'rizom/panel/ui';
+	import { Button, SpinLoader } from 'rimecms/panel/ui';
 	import { getContext } from 'svelte';
 	import { toast } from 'svelte-sonner';
 
-	const collection = getContext('rizom.collectionList');
+	const collection = getContext('rime.collectionList');
 
 	let processing = $state(false);
 

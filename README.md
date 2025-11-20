@@ -1,3 +1,3 @@
-# @rizom/regenerate-images
+# @rime/regenerate-images
 
-A rizom cms plugin to regenerate upload collections images.
+A rime cms plugin to regenerate upload collections images.

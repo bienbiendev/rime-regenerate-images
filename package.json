@@ -1,12 +1,12 @@
 {
-	"name": "@rizom/regenerate-images",
+	"name": "@rimecms/regenerate-images",
 	"version": "0.0.15",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
-		"prepack": "svelte-kit sync && svelte-package && publint",
+		"prepack": "bun ./src/lib/core/dev/cli/index.ts clear --force && svelte-kit sync && svelte-package && publint",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
@@ -62,16 +62,14 @@
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [
-			"better-sqlite3",
 			"sharp",
-			"true"
+			"esbuild"
 		]
 	},
 	"dependencies": {
+		"rimecms": "^0.23.4",
 		"@lucide/svelte": "^0.479.0",
-		"better-sqlite3": "^12.2.0",
 		"drizzle-orm": "^0.44.2",
-		"rizom": "^0.13.5",
 		"sharp": "^0.34.3",
 		"svelte-sonner": "^1.0.5"
 	}
