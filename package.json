@@ -1,12 +1,13 @@
 {
 	"name": "@rimecms/regenerate-images",
 	"version": "0.1.0",
+	"homepage": "https://github.com/bienbiendev/rime-regenerate-images",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
-		"prepack": "bun ./src/lib/core/dev/cli/index.ts clear --force && svelte-kit sync && svelte-package && publint",
+		"prepack": "pnpm rime clear --force && svelte-kit sync && svelte-package && publint",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
