@@ -1,5 +1,5 @@
 
 import type { ServerLoadEvent } from '@sveltejs/kit';
-export const load = async ({ locals, url }: ServerLoadEvent) => {
+export const load = async ({ locals }: ServerLoadEvent) => {
 	return { user: locals.user };
 };
