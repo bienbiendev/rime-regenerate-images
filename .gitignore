@@ -5,7 +5,7 @@ build
 .DS_Store
 Thumbs.db
 *.log
-pnpm-debug.log*
+pnpm-*
 *.code-workspace
 
 # Deploy targets
@@ -25,10 +25,8 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 # rime dev/codegen artifacts
-.rime
-.cache
-db
-logs
+/logs
+/db
 +rime.generated
 *.generated.d.ts
 *.tgz
