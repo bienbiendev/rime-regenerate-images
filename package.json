@@ -71,7 +71,7 @@
     "@libsql/client": "^0.17.4",
     "@lucide/svelte": "^0.479.0",
     "drizzle-orm": "^0.44.7",
-    "rimecms": "^0.31.3",
+    "rimecms": "^0.31.4",
     "sharp": "^0.34.5",
     "svelte-sonner": "^1.0.5"
   }

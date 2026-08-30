@@ -34,3 +34,7 @@ vite.config.ts.timestamp-*
 # package-specific
 /static
 src/routes/(rime)
+
+.cache
+src/app.generated.d.ts
+src/rime.generated.d.ts
