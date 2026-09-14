@@ -10,8 +10,6 @@
 
 - [`d617b1b`](https://github.com/bienbiendev/rime-regenerate-images/commit/d617b1b3ea785497b56837c911ed71d39734d580) - Changed: use default config directory
 
-- [`d617b1b`](https://github.com/bienbiendev/rime-regenerate-images/commit/d617b1b3ea785497b56837c911ed71d39734d580) - Changed: update rime to 0.31.4
-
 ## 0.2.0
 
 ### Minor Changes
