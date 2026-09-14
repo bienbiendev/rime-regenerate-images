@@ -1,1 +1,1 @@
-export { regenerateImages } from '$rime/modules';
+export { regenerateImages } from '$rime/modules:plugin';
